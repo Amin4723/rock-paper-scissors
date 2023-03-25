@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 85, 106);
+    min-width: 500px;
+    margin-top: 15px;
+    gap: 8px;
+}
+
+#header {
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: black;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    padding: 23px;
+}
+
+h1 {
+    color: rgba(0, 255, 8, 0.968);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.score-container {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 20px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#player-choice,#computer-choice {
+    font-size: 80px;
+}
+
+
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+button {
+    border: solid 1px whitesmoke;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    
+    
+}
+
+button:hover {
+    
+    border: 5px solid goldenrod;
+   
+}
+
+
+
